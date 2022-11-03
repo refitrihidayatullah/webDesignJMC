@@ -371,6 +371,7 @@ section {
 
 .title-tutor h1 {
     text-transform: uppercase;
+    font-size: 18px;
 }
 
 .sub-title-tutor {
@@ -380,7 +381,7 @@ section {
 
 .sub-title-tutor h2 {
     text-transform: uppercase;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .content-kembali {
@@ -394,6 +395,7 @@ section {
 
 .content-kembali button {
     /* border: 1px solid black; */
+    border: none;
     padding: 18px;
     width: 220px;
     margin-left: 50px;

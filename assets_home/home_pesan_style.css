@@ -58,6 +58,9 @@ header .logo {
 .header-2 {
     /* border: 1px solid black; */
     display: flex;
+    height: auto;
+    max-width: 100%;
+    flex-wrap: wrap;
     flex-direction: row;
     margin-bottom: 15px;
     margin-top: 15px;
@@ -202,14 +205,10 @@ header .logo {
 
 /* section-hero first */
 
-section {
-    padding: 18px 20px;
-    /* border: 1px solid black; */
-    position: relative;
-}
-
 .section-hero {
     margin-top: 18rem;
+    overflow: hidden;
+    max-width: 100%;
     background-color: #CDFCF6;
 }
 
@@ -217,6 +216,7 @@ section {
     text-align: center;
     text-transform: uppercase;
     font-size: 28px;
+    width: 100%;
     color: var(--header-color);
     line-height: 42px;
     margin-bottom: 20px;
@@ -235,7 +235,6 @@ section {
 
 .button-hero {
     margin-top: 8px;
-    /* border: 1px solid black; */
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -246,7 +245,6 @@ section {
     position: relative;
     width: 200px;
     margin: 10px;
-    /* border: 1px solid black; */
     padding: 10px 40px;
     height: 50px;
 }
@@ -271,7 +269,6 @@ section {
     position: relative;
     width: 200px;
     margin: 10px;
-    /* border: 1px solid black; */
     padding: 10px 40px;
     height: 50px;
 }
@@ -300,7 +297,6 @@ section {
 .select-pesan {
     width: 380px;
     height: 50px;
-    /* margin: auto; */
     align-self: center;
     margin-bottom: 30px;
 }
@@ -316,7 +312,6 @@ section {
 }
 
 .content-pesan {
-    /* border: 1px solid black; */
     min-height: 600px;
     padding: 50px;
     background-color: #CDFCF6;
@@ -332,7 +327,6 @@ section {
 }
 
 .list-content-pesan {
-    /* border: 1px solid black; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -340,7 +334,6 @@ section {
 }
 
 .header-list {
-    /* border: 1px solid black; */
     width: 50%;
     display: flex;
     margin-top: 20px;
@@ -355,7 +348,6 @@ section {
 }
 
 .header-list .icon {
-    /* border: 1px solid black; */
     width: 10%;
     height: 30px;
     display: flex;
@@ -370,35 +362,35 @@ section {
 
 .title-tutor h1 {
     text-transform: uppercase;
+    font-size: 18px;
 }
 
 .content-biaya {
-    /* border: 1px solid black; */
     display: flex;
     flex-direction: row;
+    max-width: 70%;
     justify-content: flex-end;
 }
 
 .content-harga {
     margin-top: 30px;
-    /* border: 1px solid black; */
     display: flex;
-    padding: 20px 40px;
-    width: 30%;
+    padding: 10px 10px;
+    width: 20%;
 }
 
 .content-harga .total {
     letter-spacing: 2px;
-    font-size: 23px;
+    font-size: 18px;
 }
 
 .content-harga .btn-beli button {
-    /* border: 1px solid black; */
-    padding: 18px;
-    width: 220px;
+    padding: 10px;
+    width: 120px;
+    border: none;
     margin-left: 50px;
     background-color: green;
-    font-size: large;
+    font-size: small;
     font-weight: 800;
     color: var(--text-color);
     border-radius: 3px;
@@ -409,7 +401,7 @@ section {
     opacity: 0.7;
 }
 
-
+*/
 /* section end */
 
 

@@ -146,13 +146,10 @@ header .logo {
     min-width: 300px;
     height: 94px;
     padding: 2px;
-    /* line-height: 40px; */
 }
 
 .register-tutor {
-    /* border: 1px solid black; */
     position: relative;
-    /* padding: 4px; */
 }
 
 .register-tutor .btn-register-tutor {
@@ -174,9 +171,7 @@ header .logo {
 
 .register-murid {
     top: 50px;
-    /* border: 1px solid black; */
     position: relative;
-    /* padding: 4px; */
 }
 
 .register-murid .btn-register-tutor {
@@ -204,7 +199,6 @@ header .logo {
 
 section {
     padding: 18px 20px;
-    /* border: 1px solid black; */
     position: relative;
 }
 
@@ -235,7 +229,6 @@ section {
 
 .button-hero {
     margin-top: 8px;
-    /* border: 1px solid black; */
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -246,7 +239,6 @@ section {
     position: relative;
     width: 200px;
     margin: 10px;
-    /* border: 1px solid black; */
     padding: 10px 40px;
     height: 50px;
 }
@@ -271,7 +263,6 @@ section {
     position: relative;
     width: 200px;
     margin: 10px;
-    /* border: 1px solid black; */
     padding: 10px 40px;
     height: 50px;
 }
@@ -300,7 +291,6 @@ section {
 .select-pesan {
     width: 380px;
     height: 50px;
-    /* margin: auto; */
     align-self: center;
     margin-bottom: 30px;
 }
@@ -316,10 +306,8 @@ section {
 }
 
 .content-pesan {
-    /* border: 1px solid black; */
     min-height: 600px;
     padding: 50px;
-    /* background-color: #CDFCF6; */
     margin-bottom: 50px;
 }
 
@@ -332,7 +320,6 @@ section {
 }
 
 .list-content-pesan {
-    /* border: 1px solid black; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -350,7 +337,7 @@ section {
 
 .card {
     position: relative;
-    min-width: 400px;
+    min-width: 300px;
     height: auto;
     margin: 20px auto;
     text-align: center;
@@ -362,8 +349,7 @@ section {
 }
 
 .body-card {
-    /* border: 1px solid black; */
-    min-height: 430px;
+    min-height: 300px;
     width: 100%;
 }
 
@@ -376,7 +362,7 @@ section {
     background-color: var(--header-color);
     text-align: center;
     cursor: pointer;
-    width: 95%;
+    width: 92%;
     font-size: 18px;
     position: absolute;
     left: 0;
